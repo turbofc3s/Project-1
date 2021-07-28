@@ -1,0 +1,116 @@
+body {
+	background-color: white;
+	margin: 0;
+}
+
+.multiple {
+	display: flex;
+}
+
+.blockcolor {
+	color: blue;
+	display: flex
+	justify-content: flex-start;
+}
+
+.align {
+	padding: 15px 8px 12px 18px; 
+	background-color: turquoise;
+	color: white;
+	margin: 1
+	text-align: center;	
+	width: 100%;
+}
+
+.align p{
+	padding: 0px 5px 25px 15px;
+}
+
+.align a { 
+	color: white;
+	padding: 22px 20px 25px 0px;
+}
+
+.align nav {
+	padding: 35px 10px;
+}
+
+.space {
+	background-color: lightgray;
+	color: white;
+	margin: 1
+	text-align: center;	
+	width: 100%;
+}
+
+.space p {
+	padding: 15px 8px 12px 18px; 
+	color: white;
+	margin: 0
+	text-align: center;	
+}
+
+.spaces {
+	font: white;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.box1 {
+	width: 30%;
+	text-align: center;
+	padding: 25px 50px;
+	font-size: 30px;
+	}
+
+.box2 {
+	width: 60%;
+	padding: 25px 50px;
+	text-align: center;
+	}
+
+.box2 img {
+	width: 60%;
+	padding: 40px 20px;
+}
+
+.box3 {
+	width: 80%
+	text-align: justify ;
+	align-content: 
+}
+
+.bigbox {
+	max-width: 100%;
+	flex-direction: row;
+	margin: 6px;
+	padding: 10px 10px;
+	align-content: right;
+}
+
+.bigbox2 {
+	padding: 10px 15px;
+}
+
+.toobig {
+	max-width: 50%;
+	height: 80px;
+}	
+  
+.even {
+	width: 25%;
+}  
+
+@media only screen and (max-width: 600px) {
+	.multiple {display: block;
+	}
+	.bigbox {display: block;}
+	.spaces {display: block;}
+	.box1 {width: auto;}
+	.even {width: auto;}
+	.box2 {width: auto;}
+} 
+
+
+
+
