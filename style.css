@@ -78,11 +78,12 @@ body {
 	width: 80%
 	text-align: justify ;
 	align-content: 
+	padding: 10px 15px;
 }
-
 .bigbox {
 	max-width: 100%;
 	flex-direction: row;
+
 	margin: 6px;
 	padding: 10px 10px;
 	align-content: right;
